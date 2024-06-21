@@ -5,7 +5,7 @@ interface ContainerStyledProps {
 }
 
 const ContainerStyled = styled.div<ContainerStyledProps>`
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: ${props => (props.ordem ? 'column' : 'row')};
   flex-wrap: wrap;

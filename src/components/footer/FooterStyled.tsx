@@ -4,7 +4,7 @@ const FooterStyled = styled.footer`
   height: 10vh;
   background-color: ${props => props.theme.colors.tertiary};
   color: ${props => props.theme.colors.primary};
-  width: 100vw;
+  width: 100%;
   font-size: 1.2rem;
   display: flex;
   flex-direction: row;

@@ -9,9 +9,11 @@ interface DefaultPageProps {
 function DefaultPage({ children }: DefaultPageProps) {
   return (
     <>
-      <NavBar></NavBar>
-      <DefaultPageStyled>{children}</DefaultPageStyled>
-      <Footer></Footer>
+      <DefaultPageStyled>
+        <NavBar></NavBar>
+        {children}
+        <Footer></Footer>
+      </DefaultPageStyled>
     </>
   );
 }

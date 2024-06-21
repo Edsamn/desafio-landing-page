@@ -28,9 +28,9 @@ function Home() {
         </Container>
         <Container ordem={true}>
           <h2>Média salarial da área</h2>
-          <h3>Salário Júnior: </h3>
-          <h3>Salário Pleno: </h3>
-          <h3>Salário Sênior: </h3>
+          <h3>Salário Júnior: R$3000 - R$5000</h3>
+          <h3>Salário Pleno: R$5000 - R$8000 </h3>
+          <h3>Salário Sênior: R$8000 - R$11000</h3>
         </Container>
       </DefaultPage>
     </>
