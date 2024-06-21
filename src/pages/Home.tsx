@@ -14,7 +14,7 @@ function Home() {
   return (
     <>
       <DefaultPage>
-        <Container ordem={false}>
+        <Container ordem={false} cor={false}>
           <TextContainer>
             <h1>Sobre o curso:</h1>
             <p>
@@ -31,10 +31,10 @@ function Home() {
             </p>
           </TextContainer>
         </Container>
-        <Container ordem={false}>
+        <Container ordem={false} cor={false}>
           <h2>Vantagens da nossa formação:</h2>
         </Container>
-        <Container ordem={false}>
+        <Container ordem={false} cor={false}>
           <DefaultCard>
             <TextContainer>
               <ImgStyled src={ilustracao3}></ImgStyled>
@@ -66,7 +66,7 @@ function Home() {
             </TextContainer>
           </DefaultCard>
         </Container>
-        <Container ordem={true}>
+        <Container ordem={true} cor={false}>
           <TextContainer>
             <h2>Média salarial da área</h2>
             <p>Salário Júnior: R$3000 - R$5000</p>
@@ -74,10 +74,10 @@ function Home() {
             <p>Salário Sênior: R$8000 - R$11000</p>
           </TextContainer>
         </Container>
-        <Container ordem={false}>
+        <Container ordem={false} cor={false}>
           <img src={ilustracao}></img>
         </Container>
-        <Container ordem={true}>
+        <Container ordem={true} cor={false}>
           <TextContainer>
             <h2>Ficou interessado?</h2>
 
