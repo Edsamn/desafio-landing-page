@@ -12,5 +12,6 @@ const DefaultCardStyled = styled.div`
   border: none;
   padding: 10px;
   margin: 20px;
+  font-weight: bold;
 `;
 export default DefaultCardStyled;

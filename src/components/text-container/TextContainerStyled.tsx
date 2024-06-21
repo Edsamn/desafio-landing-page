@@ -8,6 +8,7 @@ const TextContainerStyled = styled.div`
   align-items: center;
   text-align: justify;
   font-size: 1.1rem;
+  font-weight: bold;
 `;
 
 export default TextContainerStyled;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const ImgStyled = styled.img`
-  width: 80%;
+  width: 60%;
   height: 50%;
 `;
 
