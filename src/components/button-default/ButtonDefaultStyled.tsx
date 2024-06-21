@@ -6,6 +6,7 @@ const ButtonDefaultStyled = styled.button`
   border: none;
   color: ${props => props.theme.colors.primary};
   font-size: 1rem;
+  margin: 30px;
 `;
 
 export default ButtonDefaultStyled;
