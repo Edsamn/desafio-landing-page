@@ -5,7 +5,7 @@ import navigation from '../../config/navigation';
 function NavBar() {
   return (
     <NavBarStyled>
-      <h2 style={{ color: '#fff' }}>Curso de Análise de Dados</h2>
+      <h2 style={{ color: '#fff' }}>Data Insight Inc.</h2>
       {navigation.map(item => (
         <div>
           <Link to={item.url}>{item.label}</Link>

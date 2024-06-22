@@ -4,6 +4,7 @@ const ButtonDefaultStyled = styled.button`
   width: 140px;
   height: 60px;
   border: none;
+  background-color: ${props => props.theme.colors.primary};
   color: ${props => props.theme.colors.quaternary};
   font-size: 1rem;
   margin: 30px;
