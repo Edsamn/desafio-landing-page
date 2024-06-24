@@ -13,5 +13,9 @@ const DefaultCardStyled = styled.div`
   padding: 10px;
   margin: 20px;
   font-weight: bold;
+  &:hover {
+    background-color: ${props => props.theme.colors.tertiary};
+    color: ${props => props.theme.colors.quaternary};
+  }
 `;
 export default DefaultCardStyled;

@@ -94,11 +94,12 @@ function Home() {
         <Container ordem={true} cor={false}>
           <TextContainer>
             <h2>Média salarial da área</h2>
+            <img src={ilustracao} style={{ padding: '30px' }}></img>
+
             <p>Salário Júnior: R$3000 - R$5000</p>
             <p>Salário Pleno: R$5000 - R$8000 </p>
             <p>Salário Sênior: R$8000 - R$11000</p>
           </TextContainer>
-          <img src={ilustracao} style={{ padding: '30px' }}></img>
         </Container>
         <Container ordem={false} cor={true}>
           <TextContainer>
