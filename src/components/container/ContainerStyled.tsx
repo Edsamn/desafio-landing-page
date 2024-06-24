@@ -14,6 +14,7 @@ const ContainerStyled = styled.div<ContainerStyledProps>`
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 10px;
 
   p {
     margin-left: 1rem;

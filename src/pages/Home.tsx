@@ -4,11 +4,21 @@ import Container from '../components/container/Container';
 import DefaultCard from '../components/default-card/DefaultCard';
 import TextContainer from '../components/text-container/TextContainer';
 import DefaultPage from '../config/layout/DefaultPage';
+import ImgStyled from '../components/img-component/ImgStyled';
 import ilustracao from '../assets/ilustracao.png';
 import ilustracao2 from '../assets/ilustracao2.png';
 import ilustracao3 from '../assets/ilustracao3.png';
 import ilustracao4 from '../assets/ilustracao4.jpg';
-import ImgStyled from '../components/img-component/ImgStyled';
+import google from '../assets/google.png';
+import amazon from '../assets/amazon.png';
+import intel from '../assets/intel.png';
+import pepsi from '../assets/pepsi.png';
+import pfizer from '../assets/pfizer.png';
+import rede from '../assets/rede.png';
+import sebrae from '../assets/sebrae.png';
+import sony from '../assets/sony.png';
+import vivo from '../assets/vivo.png';
+import coca from '../assets/coca-cola.jpg';
 
 function Home() {
   return (
@@ -66,6 +76,21 @@ function Home() {
             </TextContainer>
           </DefaultCard>
         </Container>
+        <Container ordem={true} cor={true}>
+          <TextContainer>
+            <h2>Programa do curso:</h2>
+            <h3>Módulo 01 - </h3> <p>Estruturas de Bancos de Dados, Tipos de Variáveis e Escalas de Mensuração.</p>
+            <h3>Módulo 02 - </h3>
+            <p>
+              Técnicas Não Supervisionadas de <i>Machine Learning</i>
+            </p>
+            <h3>Módulo 03 - </h3>
+            <p>
+              Técnicas Supervisionadas de <i>Machine Learning</i>
+            </p>
+            <h3>Módulo 04 - </h3> <p>Modelagem Multinível</p>
+          </TextContainer>
+        </Container>
         <Container ordem={true} cor={false}>
           <TextContainer>
             <h2>Média salarial da área</h2>
@@ -73,9 +98,24 @@ function Home() {
             <p>Salário Pleno: R$5000 - R$8000 </p>
             <p>Salário Sênior: R$8000 - R$11000</p>
           </TextContainer>
+          <img src={ilustracao} style={{ padding: '30px' }}></img>
         </Container>
-        <Container ordem={false} cor={false}>
-          <img src={ilustracao}></img>
+        <Container ordem={false} cor={true}>
+          <TextContainer>
+            <h2>Algumas empresas onde nossos alunos atuam: </h2>
+          </TextContainer>
+        </Container>
+        <Container ordem={false} cor={true}>
+          <ImgStyled src={amazon}></ImgStyled>
+          <ImgStyled src={google}></ImgStyled>
+          <ImgStyled src={intel}></ImgStyled>
+          <ImgStyled src={pepsi}></ImgStyled>
+          <ImgStyled src={pfizer}></ImgStyled>
+          <ImgStyled src={rede}></ImgStyled>
+          <ImgStyled src={sebrae}></ImgStyled>
+          <ImgStyled src={sony}></ImgStyled>
+          <ImgStyled src={vivo}></ImgStyled>
+          <ImgStyled src={coca}></ImgStyled>
         </Container>
         <Container ordem={true} cor={false}>
           <TextContainer>
