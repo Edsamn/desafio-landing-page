@@ -9,6 +9,7 @@ const ButtonDefaultStyled = styled.button`
   font-size: 1rem;
   margin: 30px;
   transition: 0.5s;
+  font-weight: bold;
   &:hover {
     background-color: ${props => props.theme.colors.tertiary};
     color: ${props => props.theme.colors.quaternary};

@@ -10,6 +10,7 @@ const NavBarStyled = styled.header`
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  font-weight: bold;
 `;
 
 export default NavBarStyled;

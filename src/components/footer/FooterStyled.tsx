@@ -10,6 +10,7 @@ const FooterStyled = styled.footer`
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  font-weight: bold;
 `;
 
 export default FooterStyled;
